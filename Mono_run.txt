@@ -1,0 +1,18 @@
+
+INSTALL MONO on macOS
+Download the latest Mono release for Mac 
+(https://www.mono-project.com/download/stable/)
+Run the .pkg file and accept the terms of the license. Mono is now installing:
+
+vi hello.cs //write c# code
+csc hello,cs //build with mono framework
+mono.hello.exe //exec hello.exe with mono
+--------------------------------------------------------------------------------
+-rwxrwxrwx   1 scottmaretick  staff       196 Jan 18 19:40 hello.cs
+drwxr-xr-x+ 57 scottmaretick  staff      1824 Jan 18 19:40 ..
+drwx------@ 63 scottmaretick  staff      2016 Jan 18 19:41 .
+-rw-r--r--   1 scottmaretick  staff      3584 Jan 18 19:41 hello.exe
+-rw-r--r--@  1 scottmaretick  staff     43012 Jan 18 19:41 .DS_Store
+Scotts-MacBook-2:Desktop scottmaretick$ mono hello.exe
+Hello World!
+Scotts-MacBook-2:Desktop scottmaretick$ 
